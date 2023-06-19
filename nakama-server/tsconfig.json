@@ -1,0 +1,21 @@
+{
+  "files": [
+    "./main.ts",
+    // "./daily_rewards.ts",
+    "./messages.ts",
+    "./match_handler.ts",
+    "./match_rpc.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "typeRoots": [
+      "./node_modules"
+    ],
+    "lib": ["es2017", "dom"],
+    "outFile": "data/modules/dist/index.js",
+    "strict": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

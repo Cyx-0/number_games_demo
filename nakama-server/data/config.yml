@@ -1,0 +1,14 @@
+name: "nakama1"
+console:
+  port: 7351
+  username: "my_user"
+  password: "my_password"
+logger:
+  level: "INFO"
+runtime:
+  js_entrypoint: "dist/index.js"
+database:
+  address:
+    - "root@cockroachdb:26257"
+session:
+  token_expiry_sec: 7200
